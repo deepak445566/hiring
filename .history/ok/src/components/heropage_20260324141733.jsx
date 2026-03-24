@@ -24,7 +24,7 @@ const HeroPage = () => {
       alt: "Recruitment background 3"
     },
     {
-      url: "/images/ne5.jpg",
+      url: "/images/ne4.jpg",
       alt: "Recruitment background 4"
     }
   ];

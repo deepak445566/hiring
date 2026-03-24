@@ -16,7 +16,7 @@ const HeroPage = () => {
       alt: "Recruitment background 1"
     },
     {
-      url: "/images/ne2.avif",
+      url: "/images/main2.jpg",
       alt: "Recruitment background 2"
     },
     {
@@ -24,7 +24,7 @@ const HeroPage = () => {
       alt: "Recruitment background 3"
     },
     {
-      url: "/images/ne5.jpg",
+      url: "/images/ne2.avif",
       alt: "Recruitment background 4"
     }
   ];
