@@ -4,9 +4,7 @@ import { useNavigate } from "react-router-dom";
 const HeroPage = () => {
   const navigate= useNavigate();
 
-  const goservice =()=>{
-    navigate("/services")
-  }
+  const goservice
   const [currentSlide, setCurrentSlide] = useState(0);
 
   // Array of background images

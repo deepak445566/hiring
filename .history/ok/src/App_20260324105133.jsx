@@ -8,8 +8,6 @@ import SectorsPage from './components/SectorsPage'
 import IndustriesPage from "./pages/IndustriesPage";
 import AboutUs from "./pages/AboutUs";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import TestimonialSlider from "./components/TestimonialSlider";
 
 function App() {
   return (
@@ -27,7 +25,6 @@ function App() {
     <SectorsPage/>
     <SplitPage/>
     <CenteredHeroPage/>
-    <TestimonialSlider/>
     </>
       } />
 
@@ -35,7 +32,6 @@ function App() {
       <Route path="/about" element={<AboutUs/>}/>
        
       </Routes>
-      <Footer/>
     </BrowserRouter>
   )
 }

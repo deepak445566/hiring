@@ -1,12 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 
 const HeroPage = () => {
-  const navigate= useNavigate();
-
-  const goservice =()=>{
-    navigate("/services")
-  }
   const [currentSlide, setCurrentSlide] = useState(0);
 
   // Array of background images
@@ -108,7 +102,7 @@ const HeroPage = () => {
               </button>
 
               {/* Learn More Button with Info Icon */}
-              <button onClick={goservice} className="inline-flex items-center justify-center gap-2 px-8 py-3 bg-transparent border-2 border-white hover:bg-white hover:text-gray-900 text-white font-semibold rounded-4xl transition duration-300 transform hover:scale-105 group">
+              <button onClick={na} className="inline-flex items-center justify-center gap-2 px-8 py-3 bg-transparent border-2 border-white hover:bg-white hover:text-gray-900 text-white font-semibold rounded-4xl transition duration-300 transform hover:scale-105 group">
                 <span>Explore Our Services</span>
                 <img src="/images/ok1.svg" alt="arrow" />
               </button>
